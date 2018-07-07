@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 //    Led_Init();
 //    DHT11_Init();
 //    LCD_Init();
-		Init_NB_Gprs();
+//		Init_NB_Gprs();
 	
 //    LCD_Clear(BLACK);    //«Â∆¡
 //    gui_circle(128 / 2, 128 / 2, WHITE, 128 / 2 - 2, 0); //ª≠‘≤

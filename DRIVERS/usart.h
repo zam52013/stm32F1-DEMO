@@ -105,7 +105,7 @@ extern "C" {
 }
 #define SERIAL_CONFIG_2                                                     \
 {                                                                                                   \
-    BAUD_RATE_115200,   /* 115200 bits/s */                     \
+    BAUD_RATE_9600,   /* 115200 bits/s */                     \
     USART_WordLength_8b,/* 8 databits */                        \
     USART_StopBits_1,       /* 1 stopbit */                         \
     USART_Parity_No,        /* No parity  */                        \

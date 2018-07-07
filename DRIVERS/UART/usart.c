@@ -617,7 +617,6 @@ void USART1_IRQHandler(void)
     {
         RES = USART_ReceiveData(USART1);
         USART_SendData(USART2, RES);
-
         if(!USART1_MESSG.receve_ok)
         {
             switch(statu)
@@ -761,7 +760,7 @@ void USART2_IRQHandler(void)
     {
         RES = USART_ReceiveData(USART2);
         ////////////////////////////
-        USART_SendData(USART3, RES);
+        USART_SendData(USART1, RES);
         ////////////////////////////
 #ifdef QX_WZ
 #else
